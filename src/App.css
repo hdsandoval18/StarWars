@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -35,4 +36,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+.tarjetas{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.footer{
+  background-color: gold;
+  color: black;
+  text-align: center;
+}
+.texto{
+  color: white;
+}
+
+body{
+  background-color: rgb(33, 36, 41);
+  
+}
+.duvan{
+  margin-bottom: 5%;
+}
+.card{
+  color: #282c34;
+}
+.navbar{
+  color: #282c34;
+  background-color:gold
+}
+.texto{
+  text-align: center;
+}
+.cares{
+  background-color: gold;
+  text-align: center;
+}
+.person{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin: 1%;
+  
+}
+.planets{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin: 1%;
+}
+.person_card{
+  overflow-y: scroll;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20%;
+  flex-flow: wrap;
+  height: 100px;
+  display: grid;
+  grid-template-columns: auto;
+  
+}
+.planets_card{
+  overflow-y: scroll;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 6%;
+  flex-flow: wrap;
+  height: 100px;
 }
